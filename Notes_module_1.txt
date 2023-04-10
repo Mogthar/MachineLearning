@@ -1,0 +1,13 @@
+Unsupervised learning
+- Clustering algorithms - group data based on some pattern without being given labels. Algorithm automatically figures out if some datapoints are 'alike'
+- Anomaly detection - find outliers
+- Dimensionality reduction - data compression
+- Data X doesnt come with a label Y
+
+
+Gradient descent
+- if we have cost function L(x) then we start with an initial guess vector x_0 and make new estimate of the minimum location in the following way:
+    x_new = x_old - alpha * grad(L(x))
+
+here alpha is the learning rate
+

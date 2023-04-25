@@ -54,4 +54,8 @@ plt.plot(x, linear_fit(x, popt))
 plt.scatter(x, y)
 plt.show()
 
-# %%
+# NOTES
+'''
+In the future it would be great to add the option to use analytic gradient rather than numerical
+The way the gradient descent is currently written up might be flawed for cases where the minimized least squares is still non zero and large -- need to revisit this
+'''
